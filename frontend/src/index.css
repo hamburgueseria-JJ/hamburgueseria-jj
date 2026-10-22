@@ -1,0 +1,14 @@
+/* Esto remueve por completo los márgenes invisibles del navegador */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuerza a toda la ventana a estirarse al 100% real de la PC */
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #0A0A0C; /* El fondo oscuro premium del restaurante */
+}
